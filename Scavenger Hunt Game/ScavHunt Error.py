@@ -1,3 +1,5 @@
+#Scavenger Hunt Game Error Verification
+
 # Python RPG 
 
 import cmd
@@ -69,13 +71,13 @@ def start_game():
 #-------------------
 #| a1  | a2  | a3  |
 
-DESCRIPTION = 'description'
-EXAMINATION = 'examine'
-SOLVED = False
-UP = 'up','north'
-DOWN = 'down','south'
-LEFT = 'left','west'
-RIGHT = 'right','east'
+    DESCRIPTION = 'description'
+    EXAMINATION = 'examine'
+    SOLVED = False
+    UP = 'up','north'
+    DOWN = 'down','south'
+    LEFT = 'left','west'
+    RIGHT = 'right','east'
 
 solved_places = {'a1':False, 'a2':False, 'a3':False, 'a4':False,
                  'a5':False, 'a6':False, 'a7':False, 'a8':False, 'a9':False}
@@ -172,6 +174,3 @@ zonemap = {
         RIGHT = '' #Perhaps a secret door that moves you to a5?
     }
 }
-
-
-
