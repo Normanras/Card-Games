@@ -1,0 +1,28 @@
+func shortswitch(){
+    moveForward()
+    moveForward()
+    toggleSwitch()
+    turnLeft()
+    turnLeft()
+    moveForward()
+    moveForward()
+}
+func longswitch() {
+    moveForward()
+    moveForward()
+    toggleSwitch()
+    moveForward()
+    moveForward()
+    toggleSwitch()
+    turnLeft()
+    turnLeft()
+    moveForward()
+    moveForward()
+    moveForward()
+    moveForward()
+}
+shortswitch()
+shortswitch()
+turnLeft()
+longswitch()
+longswitch()
